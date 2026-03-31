@@ -32,9 +32,7 @@ This leads to a flattened feature vector of `16 x 5 x 5 = 400` values.
 
 | Library | Purpose |
 |---|---|
-| `torch` / `torch.nn` | Model definition and training |
-| `torchvision` | MNIST dataset loading and transforms |
-| `torch.optim` | Adam optimizer |
+| `PyTorch`| Model definition, training, MNIST dataset loading & transforms, and Adam optimizer |
 | `matplotlib` | Loss and accuracy plots |
 | `numpy` / `pandas` | General data utilities |
 
