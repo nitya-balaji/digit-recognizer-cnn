@@ -20,7 +20,7 @@ This leads to a flattened feature vector of `16 x 5 x 5 = 400` values.
 
 - **Fully Connected Layers:** Three linear layers `(400 -> 120 -> 84 -> 10)` map the extracted features to class scores.
 
-- **Activation Functions:** ReLU is applied after each convolution and hidden fully connected layer. log_softmax is applied at the output.
+- **Activation Functions:** ReLU is applied after each convolution and hidden fully connected layer (log_softmax is applied at the output).
 
 - **Loss and Optimizer:** CrossEntropyLoss for multi-class classification with an Adam optimizer at a learning rate of 0.001.
 
