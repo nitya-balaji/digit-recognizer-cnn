@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project trains a CNN to recognize handwritten digits (0-9) using the MNIST dataset, a benchmark collection of 70,000 grayscale images commonly used in computer vision and machine learning. Each image is 28x28 pixels and labeled with the digit it represents (0-9).
+This project trains a Convolutional Neural Network (CNN) to recognize handwritten digits (0-9) using the MNIST dataset, a benchmark collection of 70,000 grayscale images commonly used in computer vision and machine learning. Each image is 28x28 pixels and labeled with the digit it represents (0-9).
 
 ---
 
