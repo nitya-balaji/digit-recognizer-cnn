@@ -12,7 +12,7 @@ This project trains a Convolutional Neural Network (CNN) to recognize handwritte
 
 - **Max Pooling:** Applied after each convolutional layer with a 2x2 kernel to downsample the feature maps, halving spatial dimensions each time.
 
-- **Dimension Tracking"** The spatial flow through the network:
+- **Dimension Tracking:** The spatial flow through the network:
 ```
 28x28 -> 26x26 -> 13x13 -> 11x11 -> 5x5
 ```
